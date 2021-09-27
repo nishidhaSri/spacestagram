@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Spacestagram 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main idea behind this project is to build a website for the space junkies out there who can glance at space images all day long. Here anyone can "like", "unlike" or "share" the images fetched from NASA's API. The images fetched here are randomly chosen "Astronomy Picture of Day (APOD)". Respective date and title are mentioned with the image for a better idea.
 
-## Available Scripts
+## Setting up NASA credentials
 
-In the project directory, you can run:
+To access this website, you have to create an API key in order to use NASA's API call. Follow the steps below to create one:
 
-### `yarn start`
+1. Visit https://api.nasa.gov
+2. Enter basic details which are asked (like name, email) and the API key will be generated
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Get Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository and clone it.
+2. Please ensure that latest versions of "nodeJs" is installed on the system. "node -v" commands helps in ensuring that they are properly installed on the system.
+3. Use "cd" command to change to the project directory.
+4. Run "npm install" to install all the dependencies.
+5. You will need a config.js file in the root folder for the system to run successfully. An example for the config.js file has been written in exampleConfig.js. Modify the NASA API key value as you need and required before starting. 
+6. Run "yarn start" to start a local server
+7. Visit http://localhost:3000/ in the browser to open the app.
