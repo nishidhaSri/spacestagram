@@ -1,0 +1,24 @@
+.gridAlign {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  right: 50px;
+}
+
+.gridAlign img {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.gridAlign a {
+  opacity: 0.15;
+}
+
+.gridAlign a:hover {
+  opacity: 1;
+}
+
+.gridAlign .selected {
+  opacity: 1;
+}

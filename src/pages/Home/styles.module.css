@@ -1,0 +1,11 @@
+.root {
+  margin-top: 130px;
+}
+
+.cardHolder {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
