@@ -1,6 +1,6 @@
 # Spacestagram 
 
-The main idea behind this project is to build a website for the space junkies out there who can glance at space images all day long. Here anyone can "like", "unlike" or "share" the images fetched from NASA's API. The images fetched here are randomly chosen "Astronomy Picture of Day (APOD)". Respective date and title are mentioned with the image for a better idea.
+The main idea behind this project is to build a website for the space junkies out there who can glance at space images all day long. Here anyone can "like", "unlike" or "share" the images fetched from NASA's API. The images fetched here are randomly chosen "Astronomy Picture of Day (APOD)". Respective date and title are mentioned with the image for a better idea. To contribute, checkout the guidelines [here](https://github.com/nishidhaSri/spacestagram/blob/master/CONTRIBUTING.md).
 
 ## Setting up NASA credentials
 
