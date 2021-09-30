@@ -16,7 +16,7 @@ To access this website, you have to create an API key in order to use NASA's API
 3. Use **"cd"** command to change to the project directory.
 4. Run **"npm install"** to install all the dependencies.
 5. You will need a **"config.js"** file in the src/ folder for the system to run successfully. An example for the config.js file has been written in exampleConfig.js. Modify the NASA API key value as you need and required before starting. 
-6. Run **"yarn start"** to start a local server
+6. Run **"npm start"** to start a local server
 7. Visit http://localhost:3000/ in the browser to open the app.
 
 ## List of all major libraries used :-
