@@ -49,6 +49,7 @@
 .actions .liked {
   transform: scale(1.05) rotate(360deg);
   background-color: #c62828;
+  z-index: -1;
 }
 
 .actions .liked:first-child path {
