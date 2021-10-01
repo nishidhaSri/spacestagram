@@ -1,54 +1,54 @@
 .stickyContainer {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  width: 100%;
-  background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    width: 100%;
+    background: #fff;
 }
 
 .navContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.logo img {
-  height: 20px;
-  margin-right: 10px;
+.logo svg {
+    height: 20px;
+    margin-right: 10px;
 }
 
 .logo span {
-  font-family: "Doppio One", sans-serif;
+    font-family: "Doppio One", sans-serif;
 }
 
-.icons img {
-  margin: 0 30px;
-  height: 20px;
-  cursor: pointer;
+.icons svg {
+    margin: 0 30px;
+    height: 20px;
+    cursor: pointer;
 }
 
-.toggleContainer > * {
-  margin: 0 10px;
+.toggleContainer>* {
+    margin: 0 10px;
 }
 
-.toggleContainer img {
-  height: 20px;
+.toggleContainer svg {
+    height: 20px;
 }
 
 .toggle.react-toggle .react-toggle-track {
-  height: 16px;
-  width: 42px;
-  background: #fff;
-  border: 2px solid;
+    height: 16px;
+    width: 42px;
+    background: #fff;
+    border: 2px solid;
 }
 
 .toggle.react-toggle .react-toggle-thumb {
-  height: 18px;
-  width: 18px;
-  border: 2px solid;
+    height: 18px;
+    width: 18px;
+    border: 2px solid;
 }

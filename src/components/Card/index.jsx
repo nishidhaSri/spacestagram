@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ReactComponent as Heart } from "../../assets/like.svg";
-import share from "../../assets/email.svg";
+import { ReactComponent as Share} from "../../assets/email.svg";
 import { useEffect } from "react/cjs/react.development";
 import styles from "./styles.module.css";
 import { earthDate } from "../../helper";
@@ -46,7 +46,7 @@ const Card = ({ details, key, viewType, liked }) => {
         </div>
         <div className={styles.actions}>
           <Heart className={like ? styles.liked : null} onClick={likeImage} />
-          <img src={share} alt="share" />
+          <Share />
         </div>
       </div>
     </div>

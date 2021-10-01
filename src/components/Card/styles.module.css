@@ -1,58 +1,63 @@
 .root {
-  width: 350px;
-  height: 500px;
-  margin: 10px;
+    width: 350px;
+    height: 500px;
+    margin: 10px;
 }
 
-.root > img {
-  width: inherit;
-  height: 80%;
-  object-fit: cover;
+.root>img {
+    width: inherit;
+    height: 80%;
+    object-fit: cover;
 }
 
 .content {
-  font-family: "DM Sans", sans-serif;
-  display: flex;
-  justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .title {
-  font-weight: 700;
-  margin: 5px 0 10px;
+    font-weight: 700;
+    margin: 5px 0 10px;
 }
 
 .actions {
-  display: flex;
+    display: flex;
 }
 
-.actions img {
-  margin: 5px;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+.actions svg {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .actions svg:first-child {
-  border-radius: 50%;
-  cursor: pointer;
-  fill: #232323;
-  transition: 0.4s;
-  padding: 0.4rem;
-  height: 20px;
-  width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    fill: #232323;
+    transition: 0.4s;
+    padding: 0.4rem;
+    height: 33px;
+    width: 33px;
+}
+
+.actions svg path {
+    height: 30px;
+    width: 30px;
 }
 
 .actions .liked {
-  transform: scale(1.05) rotate(360deg);
-  background-color: #c62828;
-  z-index: -1;
+    transform: scale(1.05) rotate(360deg);
+    background-color: #c62828;
+    z-index: -1;
 }
 
 .actions .liked:first-child path {
-  fill: white;
-  background-color: white;
+    fill: white;
+    background-color: white;
 }
