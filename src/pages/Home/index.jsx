@@ -4,6 +4,7 @@ import Card from "../../components/Card/index";
 import Grid from "../../components/Grid";
 import api_key from "../../config";
 import styles from "./styles.module.css";
+import {ReactComponent as Loader} from '../../assets/Loader.svg'
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -64,7 +65,8 @@ const Home = () => {
           ))}
         </div>
         <div className="loading" ref={loader}>
-          <h2>Load More</h2>
+          {/* <h2>Load More</h2> */}
+          <Loader/>
         </div>
       </div>
     </div>
