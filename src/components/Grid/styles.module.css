@@ -1,26 +1,26 @@
 .gridAlign {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 40%;
-    right: 50px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  right: 50px;
 }
 
 .gridAlign svg {
-    margin: 20px 0;
-    cursor: pointer;
+  margin: 20px 0;
+  cursor: pointer;
 }
 
 .gridAlign a {
-    opacity: 0.45;
+  opacity: 0.45;
 }
 
 .gridAlign a:hover {
-    color: black;
-    opacity: 1
+  color: black;
+  opacity: 1
 }
 
 .gridAlign .selected {
-    color: black;
-    opacity: 1;
+  color: black;
+  opacity: 1;
 }

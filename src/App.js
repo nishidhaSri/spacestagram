@@ -6,7 +6,7 @@ import Home from "./pages/Home/index";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './ThemeChanger/themes';
 import { GlobalStyles } from './ThemeChanger/global';
-import {useDarkMode} from './ThemeChanger/useDarkMode'
+import { useDarkMode } from './ThemeChanger/useDarkMode'
 
 function App() {
 
@@ -14,12 +14,12 @@ function App() {
   return (
     <>
     <ThemeProvider theme={theme==='dark'?lightTheme:darkTheme}>
-        <GlobalStyles/>
-        <Navigation theme={theme} toggleTheme={toggleTheme} />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/liked" component={Favorites} />
-        </Switch>
+      <GlobalStyles/>
+      <Navigation theme={theme} toggleTheme={toggleTheme} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/liked" component={Favorites} />
+      </Switch>
     </ThemeProvider>
     </>
   );

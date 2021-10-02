@@ -34,15 +34,15 @@ const Navigation = (props) => {
         </div>
         <div className={styles.toggleContainer}>
           {/* <img src={moon} alt="moon-icon" /> */}
-          <Sun/>
+          <Moon/>
           <Toggle
             className={styles.toggle}
             defaultChecked={props.theme=='dark'}
             icons={false}
             onChange={props.toggleTheme}
-          />
+            />
           {/* <img src={sun} alt="sun-icon" /> */}
-          <Moon/>
+          <Sun/>
         </div>
       </div>
     </div>

@@ -26,38 +26,38 @@
 }
 
 .actions {
-    display: flex;
+  display: flex;
 }
 
 .actions svg {
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
 .actions svg:first-child {
-    border-radius: 50%;
-    cursor: pointer;
-    fill: #232323;
-    transition: 0.4s;
-    padding: 0.4rem;
-    height: 33px;
-    width: 33px;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: #232323;
+  transition: 0.4s;
+  padding: 0.4rem;
+  height: 33px;
+  width: 33px;
 }
 
 .actions svg path {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .actions .liked {
-    transform: scale(1.05) rotate(360deg);
-    background-color: #c62828;
-    z-index: -1;
+  transform: scale(1.05) rotate(360deg);
+  background-color: #c62828;
+  z-index: -1;
 }
 
 .actions .liked:first-child path {
-    fill: white;
-    background-color: white;
+  fill: white;
+  background-color: white;
 }
