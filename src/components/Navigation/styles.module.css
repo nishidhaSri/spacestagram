@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.logo img {
+.logo svg {
   height: 20px;
   margin-right: 10px;
 }
@@ -26,17 +26,17 @@
   font-family: "Doppio One", sans-serif;
 }
 
-.icons img {
+.icons svg {
   margin: 0 30px;
   height: 20px;
   cursor: pointer;
 }
 
-.toggleContainer > * {
+.toggleContainer>* {
   margin: 0 10px;
 }
 
-.toggleContainer img {
+.toggleContainer svg {
   height: 20px;
 }
 
