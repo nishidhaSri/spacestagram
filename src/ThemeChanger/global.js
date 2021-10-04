@@ -29,4 +29,8 @@ export const GlobalStyles = createGlobalStyle `
     fill:${({ theme }) => theme.text};
   }
   
+  .loading svg circle{
+    stroke:${({ theme }) => theme.text};
+  }
+
   `
