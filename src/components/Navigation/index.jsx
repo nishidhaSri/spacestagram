@@ -37,7 +37,7 @@ const Navigation = (props) => {
           <Moon/>
           <Toggle
             className={styles.toggle}
-            defaultChecked={props.theme=='dark'}
+            defaultChecked={props.theme==='dark'}
             icons={false}
             onChange={props.toggleTheme}
             />
