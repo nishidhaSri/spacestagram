@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle `
+export const GlobalStyles = createGlobalStyle`
   *,
   *::after,
   *::before {
@@ -33,4 +33,4 @@ export const GlobalStyles = createGlobalStyle `
     stroke:${({ theme }) => theme.text};
   }
 
-  `
+  `;
