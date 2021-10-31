@@ -4,7 +4,8 @@ import { ReactComponent as Share} from "../../assets/email.svg";
 import { useEffect } from "react/cjs/react.development";
 import styles from "./styles.module.css";
 import { earthDate } from "../../helper";
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
+import {Link} from 'react-router-dom'
 
 const Card = ({ details, key, viewType, liked }) => {
   const { url, title, date } = details;
@@ -46,7 +47,7 @@ const Card = ({ details, key, viewType, liked }) => {
   }
 
   return (
-    <div key={key} className={styles.root} style={style}>
+    <Link key={key} className={styles.root} style={style} to={`/details?url=${url}`}>
       <img src={url} alt="hd space" />
       <div className={styles.content}>
         <div className={styles.info}>
@@ -58,7 +59,7 @@ const Card = ({ details, key, viewType, liked }) => {
           <Share onClick={handleShare} />
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
