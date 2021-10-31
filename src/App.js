@@ -8,6 +8,7 @@ import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./ThemeChanger/themes";
 import { GlobalStyles } from "./ThemeChanger/global";
 import { useDarkMode } from "./ThemeChanger/useDarkMode";
+import {Toaster} from 'react-hot-toast'
 
 function App() {
   const [theme, toggleTheme] = useDarkMode();

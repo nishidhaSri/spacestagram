@@ -3,6 +3,8 @@
     height: 500px;
     margin: 10px;
     transition: all 2s linear;
+    color:white;
+    text-decoration:none;
 }
 
 .root>img {
