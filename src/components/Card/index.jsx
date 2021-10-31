@@ -4,6 +4,7 @@ import { ReactComponent as Share} from "../../assets/email.svg";
 import { useEffect } from "react/cjs/react.development";
 import styles from "./styles.module.css";
 import { earthDate } from "../../helper";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Card = ({ details, key, viewType, liked }) => {
   const { url, title, date } = details;
@@ -36,6 +37,14 @@ const Card = ({ details, key, viewType, liked }) => {
     }
     setLike(!like);
   };
+
+  //function to generate sharable link
+  const handleShare = () =>{
+    const sharableLink = `${window.location.origin}/details?url=${url}`
+    navigator.clipboard.writeText(sharableLink);
+    toast.success("Link copied to clipboard")
+  }
+
   return (
     <div key={key} className={styles.root} style={style}>
       <img src={url} alt="hd space" />
@@ -46,7 +55,7 @@ const Card = ({ details, key, viewType, liked }) => {
         </div>
         <div className={styles.actions}>
           <Heart className={like ? styles.liked : null} onClick={likeImage} />
-          <Share />
+          <Share onClick={handleShare} />
         </div>
       </div>
     </div>
